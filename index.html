@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shruthi Dhanasekaran | Copywriter &amp; Content Researcher</title>
+<meta name="description" content="Portfolio of Shruthi Dhanasekaran — a research-driven copywriter and content researcher focused on persuasive copy, content strategy, social media writing, and WhatsApp marketing.">
+<meta name="keywords" content="copywriter portfolio, content researcher, WhatsApp marketing, social media copywriting, entry-level copywriter, content writer">
+<meta property="og:title" content="Shruthi Dhanasekaran | Copywriter & Content Researcher">
+<meta property="og:description" content="Research-driven copywriting and content strategy — from audience insight to persuasive, conversion-aware writing.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FBF8F2;
+    --paper-alt:#F2EEE3;
+    --card:#FFFFFF;
+    --ink:#242320;
+    --ink-soft:#615D52;
+    --ink-faint:#8A8577;
+    --sage:#5E7052;
+    --sage-deep:#465A3C;
+    --rose:#BD7C68;
+    --rose-deep:#A6624F;
+    --line:#E4DECE;
+    --line-soft:#ECE7DA;
+    --radius:18px;
+    --shadow-card: 0 1px 2px rgba(36,35,32,0.04), 0 12px 28px -14px rgba(36,35,32,0.18);
+    --shadow-card-hover: 0 4px 10px rgba(36,35,32,0.06), 0 22px 40px -16px rgba(36,35,32,0.22);
+    --maxw: 1160px;
+  }
+
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    *,*::before,*::after{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important; }
+  }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter', sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  img{ max-width:100%; display:block; }
+
+  a{ color:inherit; }
+
+  h1,h2,h3,h4{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    line-height:1.12;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+
+  .container{ max-width:var(--maxw); margin:0 auto; padding:0 28px; }
+
+  .label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--sage-deep);
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+  }
+  .label::before{
+    content:"";
+    width:14px; height:1px;
+    background:var(--sage-deep);
+    display:inline-block;
+  }
+
+  a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, summary:focus-visible{
+    outline:2px solid var(--sage-deep);
+    outline-offset:3px;
+    border-radius:4px;
+  }
+
+  /* ---------- NAV ---------- */
+  header.site-nav{
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    background:rgba(251,248,242,0.86);
+    backdrop-filter: blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{
+    max-width:var(--maxw); margin:0 auto; padding:16px 28px;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .nav-brand{
+    font-family:'Fraunces', serif; font-weight:500; font-size:20px; letter-spacing:-0.01em;
+    text-decoration:none; color:var(--ink);
+  }
+  .nav-brand em{ font-style:italic; color:var(--sage-deep); }
+  .nav-links{
+    display:flex; align-items:center; gap:30px; list-style:none; margin:0; padding:0;
+  }
+  .nav-links a{
+    text-decoration:none; font-size:14.5px; color:var(--ink-soft);
+    transition:color .2s ease; position:relative;
+  }
+  .nav-links a:hover{ color:var(--ink); }
+  .nav-links a.active{ color:var(--ink); }
+  .nav-links a.active::after{
+    content:""; position:absolute; left:0; right:0; bottom:-6px; height:2px; background:var(--rose-deep); border-radius:2px;
+  }
+  .nav-cta{
+    font-family:'Inter',sans-serif; font-weight:600; font-size:14px;
+    background:var(--ink); color:var(--paper);
+    padding:10px 20px; border-radius:100px; text-decoration:none;
+    white-space:nowrap;
+    transition:background .2s ease, transform .2s ease;
+  }
+  .nav-cta:hover{ background:var(--sage-deep); transform:translateY(-1px); }
+
+  .hamburger{
+    display:none; flex-direction:column; gap:5px; background:none; border:none; cursor:pointer; padding:8px;
+  }
+  .hamburger span{
+    width:22px; height:2px; background:var(--ink); display:block; transition:transform .25s ease, opacity .25s ease;
+  }
+  .hamburger.open span:nth-child(1){ transform:translateY(7px) rotate(45deg); }
+  .hamburger.open span:nth-child(2){ opacity:0; }
+  .hamburger.open span:nth-child(3){ transform:translateY(-7px) rotate(-45deg); }
+
+  .mobile-panel{
+    display:none;
+    position:fixed; top:64px; left:0; right:0; bottom:0; z-index:99;
+    background:var(--paper);
+    padding:20px 28px 40px;
+    overflow-y:auto;
+  }
+  .mobile-panel.open{ display:block; }
+  .mobile-panel a{
+    display:block; padding:14px 0; border-bottom:1px solid var(--line);
+    text-decoration:none; font-family:'Fraunces',serif; font-size:22px; color:var(--ink);
+  }
+  .mobile-panel .nav-cta{ display:inline-block; margin-top:22px; }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    padding:150px 0 80px;
+    position:relative;
+  }
+  .hero-grid{
+    display:grid; grid-template-columns:1.5fr 0.9fr; gap:48px; align-items:end;
+  }
+  .hero h1{
+    font-size:clamp(38px, 5.4vw, 68px);
+    margin-top:18px;
+  }
+  .hero h1 .accent{ font-style:italic; color:var(--sage-deep); }
+  .hero-lede{
+    margin-top:22px; max-width:52ch; font-size:17.5px; color:var(--ink-soft);
+  }
+  .hero-tagline{
+    margin-top:18px; font-family:'Fraunces',serif; font-style:italic; font-size:18px; color:var(--rose-deep);
+  }
+  .hero-ctas{ margin-top:32px; display:flex; gap:14px; flex-wrap:wrap; align-items:center; }
+  .btn{
+    font-family:'Inter',sans-serif; font-weight:600; font-size:14.5px;
+    padding:13px 24px; border-radius:100px; text-decoration:none; display:inline-flex; align-items:center; gap:8px;
+    border:1px solid transparent; cursor:pointer; transition:transform .2s ease, background .2s ease, border-color .2s ease;
+  }
+  .btn-primary{ background:var(--ink); color:var(--paper); }
+  .btn-primary:hover{ background:var(--sage-deep); transform:translateY(-1px); }
+  .btn-ghost{ background:transparent; color:var(--ink); border-color:var(--ink); }
+  .btn-ghost:hover{ background:var(--ink); color:var(--paper); }
+
+  .hero-side{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:26px;
+    box-shadow:var(--shadow-card);
+    position:relative;
+  }
+  .hero-side::before{
+    content:""; position:absolute; top:0; right:22px; width:34px; height:14px;
+    background:var(--paper-alt); border:1px solid var(--line); border-top:none;
+    border-radius:0 0 8px 8px;
+  }
+  .hero-side .label{ margin-bottom:12px; }
+  .hero-side p{ margin:0; font-size:14.5px; color:var(--ink-soft); }
+  .hero-side .roles{ margin-top:16px; display:flex; flex-wrap:wrap; gap:8px; }
+  .chip{
+    font-family:'IBM Plex Mono', monospace; font-size:11.5px; letter-spacing:0.02em;
+    padding:6px 12px; border-radius:100px; background:var(--paper-alt); border:1px solid var(--line); color:var(--ink-soft);
+  }
+
+  /* ---------- SECTION SCAFFOLD ---------- */
+  section{ padding:96px 0; }
+  section.alt{ background:var(--paper-alt); }
+  .section-head{ max-width:640px; margin-bottom:52px; }
+  .section-head h2{ font-size:clamp(30px,3.6vw,42px); margin-top:14px; }
+  .section-head .subtitle{ margin-top:14px; font-size:17px; color:var(--ink-soft); }
+
+  .reveal{ opacity:0; transform:translateY(18px); transition:opacity .6s ease, transform .6s ease; }
+  .reveal.visible{ opacity:1; transform:none; }
+
+  /* ---------- ABOUT ---------- */
+  .about-grid{ display:grid; grid-template-columns:1fr 1fr; gap:56px; align-items:start; }
+  .about-copy p{ color:var(--ink-soft); font-size:16px; margin:0 0 16px; }
+  .process-row{
+    margin-top:28px; display:flex; flex-wrap:wrap; gap:10px; align-items:center;
+    font-family:'IBM Plex Mono', monospace; font-size:12.5px; color:var(--sage-deep);
+  }
+  .process-row span.step{ background:var(--card); border:1px solid var(--line); padding:8px 14px; border-radius:100px; }
+  .process-row .arrow{ color:var(--ink-faint); }
+
+  .capability-grid{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  .capability-card{
+    background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px;
+    box-shadow:var(--shadow-card); transition:box-shadow .25s ease, transform .25s ease;
+  }
+  .capability-card:hover{ box-shadow:var(--shadow-card-hover); transform:translateY(-2px); }
+  .capability-card h4{ font-size:16px; font-family:'Inter',sans-serif; font-weight:600; }
+  .capability-card p{ margin:8px 0 0; font-size:14px; color:var(--ink-soft); }
+
+  /* ---------- INDEX CARD (signature element) ---------- */
+  .index-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:16px;
+    box-shadow:var(--shadow-card);
+    position:relative;
+    overflow:hidden;
+    transition:box-shadow .25s ease, transform .25s ease;
+  }
+  .index-card:hover{ box-shadow:var(--shadow-card-hover); transform:translateY(-3px); }
+  .index-card::after{
+    content:""; position:absolute; top:0; right:0; width:0; height:0;
+    border-style:solid; border-width:0 26px 26px 0;
+    border-color:transparent var(--paper-alt) transparent transparent;
+  }
+  .index-card .card-tab{
+    font-family:'IBM Plex Mono', monospace; font-size:11.5px; color:var(--ink-faint);
+    padding:16px 26px 0 26px; display:flex; justify-content:space-between; align-items:center;
+  }
+  .index-card .card-body{ padding:14px 26px 26px; }
+  .index-card h3{ font-size:23px; margin-top:6px; }
+  .index-card .cat{
+    display:inline-block; margin-top:10px; font-family:'IBM Plex Mono', monospace; font-size:11px;
+    letter-spacing:0.08em; text-transform:uppercase; color:var(--rose-deep); background:rgba(189,124,104,0.1);
+    padding:5px 10px; border-radius:6px;
+  }
+  .index-card .desc{ margin-top:14px; color:var(--ink-soft); font-size:15px; }
+
+  details.reveal-toggle{ margin-top:20px; }
+  details.reveal-toggle summary{
+    cursor:pointer; list-style:none; font-family:'Inter',sans-serif; font-weight:600; font-size:14px;
+    color:var(--sage-deep); display:inline-flex; align-items:center; gap:6px;
+  }
+  details.reveal-toggle summary::-webkit-details-marker{ display:none; }
+  details.reveal-toggle summary::after{ content:"→"; transition:transform .2s ease; }
+  details.reveal-toggle[open] summary::after{ transform:rotate(90deg); }
+  .sample-block{
+    margin-top:18px; background:var(--paper-alt); border:1px solid var(--line-soft); border-radius:12px; padding:20px;
+  }
+  .sample-block h5{ font-family:'IBM Plex Mono',monospace; font-size:11px; text-transform:uppercase; letter-spacing:0.08em; color:var(--sage-deep); margin:0 0 10px; }
+  .sample-block p{ font-size:14.5px; color:var(--ink); margin:0 0 10px; }
+  .sample-block p:last-child{ margin-bottom:0; }
+  .strategy-box{
+    margin-top:16px; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 18px;
+  }
+  .strategy-box .row{ display:flex; gap:8px; font-size:13.5px; margin-bottom:6px; }
+  .strategy-box .row:last-child{ margin-bottom:0; }
+  .strategy-box b{ color:var(--sage-deep); min-width:120px; display:inline-block; }
+
+  .grid-2{ display:grid; grid-template-columns:1fr 1fr; gap:24px; }
+
+  /* ---------- WHATSAPP ---------- */
+  .wa-mock{
+    background:#E8EDE3; border-radius:16px; padding:18px; max-width:340px;
+  }
+  .wa-bubble{
+    background:var(--card); border-radius:12px; padding:14px 16px; font-size:14px; box-shadow:0 1px 2px rgba(0,0,0,0.06);
+  }
+  .wa-bubble .wa-line{ margin:0 0 6px; }
+  .wa-bubble .wa-line:last-child{ margin-bottom:0; }
+
+  .drip-row{ display:flex; gap:16px; flex-wrap:wrap; }
+  .drip-day{
+    flex:1; min-width:220px; background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px;
+    box-shadow:var(--shadow-card);
+  }
+  .drip-day .day-label{ font-family:'IBM Plex Mono',monospace; font-size:11px; text-transform:uppercase; color:var(--rose-deep); letter-spacing:0.08em; }
+  .drip-day h5{ margin:10px 0 8px; font-family:'Fraunces',serif; font-size:18px; font-weight:500; }
+  .drip-day p{ margin:0; font-size:14px; color:var(--ink-soft); }
+
+  /* ---------- CTA VAULT ---------- */
+  .vault-group{ margin-bottom:36px; }
+  .vault-group h4{ font-family:'IBM Plex Mono',monospace; font-size:12px; text-transform:uppercase; letter-spacing:0.1em; color:var(--ink-faint); font-weight:500; margin-bottom:16px; }
+  .vault-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }
+  .vault-card{
+    background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px;
+    cursor:pointer; transition:box-shadow .2s ease, transform .2s ease, border-color .2s ease;
+    box-shadow:var(--shadow-card);
+  }
+  .vault-card:hover{ box-shadow:var(--shadow-card-hover); transform:translateY(-2px); border-color:var(--sage); }
+  .vault-card .cta-text{ font-family:'Fraunces',serif; font-size:19px; }
+  .vault-card p{ margin:10px 0 0; font-size:13.5px; color:var(--ink-soft); }
+  .vault-card .feedback{
+    margin-top:10px; font-size:12.5px; font-family:'IBM Plex Mono',monospace; color:var(--sage-deep);
+    opacity:0; height:0; overflow:hidden; transition:opacity .2s ease;
+  }
+  .vault-card.picked .feedback{ opacity:1; height:auto; }
+
+  /* ---------- FRAMEWORK ---------- */
+  .framework-row{ display:grid; grid-template-columns:repeat(5,1fr); gap:14px; }
+  .fw-step{
+    background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px 16px; text-align:left;
+    position:relative;
+  }
+  .fw-step .num{ font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--rose-deep); }
+  .fw-step h5{ margin:10px 0 6px; font-family:'Fraunces',serif; font-size:17px; font-weight:500; }
+  .fw-step p{ margin:0; font-size:13px; color:var(--ink-soft); }
+  .framework-quote{
+    margin-top:36px; font-family:'Fraunces',serif; font-style:italic; font-size:clamp(20px,2.6vw,28px);
+    text-align:center; color:var(--sage-deep); max-width:700px; margin-left:auto; margin-right:auto;
+  }
+
+  /* ---------- SKILLS ---------- */
+  .skills-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:20px; }
+  .skill-col h4{ font-family:'IBM Plex Mono',monospace; font-size:12px; text-transform:uppercase; letter-spacing:0.08em; color:var(--sage-deep); margin-bottom:14px; }
+  .skill-col ul{ list-style:none; margin:0; padding:0; }
+  .skill-col li{ font-size:14.5px; color:var(--ink-soft); padding:7px 0; border-bottom:1px solid var(--line-soft); }
+  .skill-col li:last-child{ border-bottom:none; }
+
+  /* ---------- WORKING STYLE ---------- */
+  .style-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:16px; }
+  .style-card{ background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px; box-shadow:var(--shadow-card); }
+  .style-card h4{ font-family:'Inter',sans-serif; font-weight:600; font-size:15px; }
+  .style-card p{ margin:8px 0 0; font-size:13.5px; color:var(--ink-soft); }
+
+  /* ---------- OPPORTUNITY / CONTACT ---------- */
+  .opportunity{
+    background:var(--ink); color:var(--paper); border-radius:24px; padding:64px 48px; text-align:center;
+  }
+  .opportunity h2{ color:var(--paper); font-size:clamp(28px,3.6vw,40px); max-width:760px; margin:0 auto; }
+  .opportunity p{ color:#C9C6BB; max-width:560px; margin:18px auto 0; font-size:16px; }
+  .opportunity .hero-ctas{ justify-content:center; margin-top:30px; }
+  .opportunity .btn-ghost{ border-color:#5C594F; color:var(--paper); }
+  .opportunity .btn-ghost:hover{ background:var(--paper); color:var(--ink); }
+  .opportunity .btn-primary{ background:var(--rose-deep); }
+  .opportunity .btn-primary:hover{ background:var(--rose); }
+
+  .contact-grid{ display:grid; grid-template-columns:0.9fr 1.1fr; gap:56px; }
+  .contact-links{ margin-top:24px; display:flex; flex-direction:column; gap:14px; }
+  .contact-links a{ text-decoration:none; font-size:15px; color:var(--ink); display:flex; align-items:center; gap:10px; }
+  .contact-links a:hover{ color:var(--sage-deep); }
+  .contact-links .k{ font-family:'IBM Plex Mono',monospace; font-size:11px; text-transform:uppercase; color:var(--ink-faint); width:78px; flex-shrink:0; }
+
+  form.contact-form{
+    background:var(--card); border:1px solid var(--line); border-radius:16px; padding:28px; box-shadow:var(--shadow-card);
+  }
+  .field{ margin-bottom:18px; }
+  .field label{ display:block; font-size:13px; font-weight:600; margin-bottom:6px; }
+  .field input, .field textarea{
+    width:100%; padding:12px 14px; border-radius:10px; border:1px solid var(--line);
+    background:var(--paper-alt); font-family:'Inter',sans-serif; font-size:14.5px; color:var(--ink);
+  }
+  .field input:focus, .field textarea:focus{ outline:none; border-color:var(--sage); background:var(--card); }
+  .field textarea{ min-height:110px; resize:vertical; }
+  .field .error{ color:var(--rose-deep); font-size:12.5px; margin-top:5px; display:none; }
+  .field.invalid input, .field.invalid textarea{ border-color:var(--rose-deep); }
+  .field.invalid .error{ display:block; }
+  .form-status{ margin-top:14px; font-size:14px; color:var(--sage-deep); display:none; }
+  .form-status.show{ display:block; }
+
+  /* ---------- FOOTER ---------- */
+  footer{ padding:48px 0 32px; border-top:1px solid var(--line); }
+  .footer-inner{ display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:24px; }
+  .footer-brand{ font-family:'Fraunces',serif; font-size:20px; }
+  .footer-role{ margin-top:6px; font-size:13.5px; color:var(--ink-soft); }
+  .footer-links{ display:flex; gap:20px; list-style:none; margin:0; padding:0; }
+  .footer-links a{ text-decoration:none; font-size:13.5px; color:var(--ink-soft); }
+  .footer-links a:hover{ color:var(--ink); }
+  .footer-bottom{ margin-top:28px; font-size:12.5px; color:var(--ink-faint); }
+
+  /* ---------- BACK TO TOP ---------- */
+  .to-top{
+    position:fixed; bottom:26px; right:26px; width:44px; height:44px; border-radius:50%;
+    background:var(--ink); color:var(--paper); border:none; cursor:pointer; z-index:90;
+    display:flex; align-items:center; justify-content:center; font-size:16px;
+    opacity:0; pointer-events:none; transform:translateY(10px);
+    transition:opacity .25s ease, transform .25s ease, background .2s ease;
+  }
+  .to-top.show{ opacity:1; pointer-events:auto; transform:none; }
+  .to-top:hover{ background:var(--sage-deep); }
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width: 900px){
+    .nav-links, .nav-cta{ display:none; }
+    .hamburger{ display:flex; }
+    .hero{ padding:120px 0 60px; }
+    .hero-grid{ grid-template-columns:1fr; }
+    .about-grid, .contact-grid, .grid-2{ grid-template-columns:1fr; }
+    .capability-grid{ grid-template-columns:1fr; }
+    .skills-grid{ grid-template-columns:1fr 1fr; }
+    .style-grid{ grid-template-columns:1fr 1fr; }
+    .vault-grid{ grid-template-columns:1fr; }
+    .framework-row{ grid-template-columns:1fr 1fr; }
+    .opportunity{ padding:48px 24px; }
+  }
+  @media (max-width: 560px){
+    section{ padding:64px 0; }
+    .container{ padding:0 20px; }
+    .skills-grid{ grid-template-columns:1fr; }
+    .style-grid{ grid-template-columns:1fr; }
+    .framework-row{ grid-template-columns:1fr; }
+    .hero-ctas{ flex-direction:column; align-items:stretch; }
+    .hero-ctas .btn{ justify-content:center; }
+    .drip-row{ flex-direction:column; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-brand">Shruthi <em>Dhanasekaran</em></a>
+    <nav aria-label="Primary">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#copywriting">Copywriting</a></li>
+        <li><a href="#research">Research &amp; Writing</a></li>
+        <li><a href="#whatsapp">WhatsApp</a></li>
+        <li><a href="#cta-vault">CTA Vault</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="#contact" class="nav-cta">Let's Work Together</a>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false" aria-controls="mobilePanel">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-panel" id="mobilePanel">
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#copywriting">Copywriting</a>
+  <a href="#research">Research &amp; Writing</a>
+  <a href="#whatsapp">WhatsApp Marketing</a>
+  <a href="#cta-vault">CTA Vault</a>
+  <a href="#contact">Contact</a>
+  <a href="#contact" class="btn btn-primary nav-cta">Let's Work Together</a>
+</div>
+
+<main id="home">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="label">Copywriter · Content Researcher · Digital Writer</span>
+        <h1>Strategic research meets <span class="accent">creative</span> copywriting.</h1>
+        <p class="hero-lede">I turn audience insights into persuasive copy, research-backed content, and marketing messages that build attention, trust, and action.</p>
+        <p class="hero-tagline">"Turning audiences into community &amp; customers."</p>
+        <div class="hero-ctas">
+          <a href="#copywriting" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Let's Connect</a>
+        </div>
+      </div>
+      <aside class="hero-side">
+        <span class="label">Status</span>
+        <p>Open to internships &amp; entry-level opportunities in copywriting, content research, and digital marketing.</p>
+        <div class="roles">
+          <span class="chip">Ad Copy</span>
+          <span class="chip">Content Research</span>
+          <span class="chip">WhatsApp Marketing</span>
+          <span class="chip">Social Writing</span>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="reveal">
+    <div class="container about-grid">
+      <div class="about-copy">
+        <span class="label">About</span>
+        <h2 style="font-size:32px;margin-top:14px;">Curious about people, problems, and the words that connect them.</h2>
+        <p>I'm an entry-level copywriter and content researcher who enjoys understanding people before I try to persuade them — what they need, what's stopping them, and how a brand can genuinely help. My approach pairs research with creativity: I look for the real problem first, then write toward it.</p>
+        <p>I'm drawn to the kind of content that has a job to do — an ad that needs to convert, a message that needs to re-engage, an article that needs to explain something clearly. That's the work I want to keep getting better at.</p>
+        <div class="process-row">
+          <span class="step">Research</span><span class="arrow">→</span>
+          <span class="step">Understand</span><span class="arrow">→</span>
+          <span class="step">Strategize</span><span class="arrow">→</span>
+          <span class="step">Write</span><span class="arrow">→</span>
+          <span class="step">Optimize</span>
+        </div>
+      </div>
+      <div class="capability-grid">
+        <div class="capability-card">
+          <h4>Audience Research</h4>
+          <p>Understanding audience needs, pain points, interests, and intent.</p>
+        </div>
+        <div class="capability-card">
+          <h4>Copywriting</h4>
+          <p>Writing persuasive messaging for ads, landing pages, campaigns, and social platforms.</p>
+        </div>
+        <div class="capability-card">
+          <h4>Content Research</h4>
+          <p>Finding useful information, extracting insights, and turning research into understandable content.</p>
+        </div>
+        <div class="capability-card">
+          <h4>WhatsApp Marketing</h4>
+          <p>Creating concise promotional and customer re-engagement messages.</p>
+        </div>
+        <div class="capability-card" style="grid-column:1 / -1;">
+          <h4>Storytelling</h4>
+          <p>Turning information into engaging narratives that hold attention and make a point.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 01 COPYWRITING -->
+  <section id="copywriting" class="alt reveal">
+    <div class="container">
+      <div class="section-head">
+        <span class="label">01 / Copywriting</span>
+        <h2>Writing that earns attention — and gives it somewhere to go.</h2>
+        <p class="subtitle">These samples demonstrate persuasion, audience understanding, problem–solution framing, clear CTAs, and conversion thinking.</p>
+      </div>
+
+      <div class="grid-2">
+        <!-- Sample A -->
+        <article class="index-card">
+          <div class="card-tab"><span>Case 01</span><span>Speculative Project</span></div>
+          <div class="card-body">
+            <span class="cat">EdTech / Skill Development · PAS Framework</span>
+            <h3>SkillSprint — Turning "I don't have time" into "I can start today."</h3>
+            <p class="desc">A speculative ad for a fictional skill-building platform, written to move a procrastinating learner from excuse to action.</p>
+
+            <details class="reveal-toggle">
+              <summary>Read the ad</summary>
+              <div class="sample-block">
+                <h5>Problem</h5>
+                <p>You've known for months that your career needs a new skill. You've bookmarked the courses. You've watched two people in your batch get promoted for exactly the thing you keep meaning to learn.</p>
+                <h5>Agitate</h5>
+                <p>And yet the tabs stay open. The course stays "saved for later." Every long, 40-hour syllabus feels like one more thing you don't have room for — so you wait for a version of your week that never actually shows up, and the gap between you and everyone else quietly gets wider.</p>
+                <h5>Solution</h5>
+                <p>SkillSprint isn't another 40-hour course. It's short, practical lessons you can finish in the time you already have — built around real job skills, paced entirely by you. No deadlines you'll miss. No modules you'll abandon. Just the next 15 minutes, put to good use.</p>
+                <p><strong>Start today. One sprint at a time.</strong></p>
+              </div>
+              <div class="strategy-box">
+                <div class="row"><b>Audience</b> Students &amp; young professionals</div>
+                <div class="row"><b>Pain Point</b> Lack of time + procrastination</div>
+                <div class="row"><b>Desired Outcome</b> Career-relevant skills</div>
+                <div class="row"><b>Copy Framework</b> Problem–Agitate–Solution</div>
+                <div class="row"><b>Conversion Goal</b> Course sign-up</div>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <!-- Sample B -->
+        <article class="index-card">
+          <div class="card-tab"><span>Case 02</span><span>Speculative Project</span></div>
+          <div class="card-body">
+            <span class="cat">Social Media Advertising · Meta Ad</span>
+            <h3>Learn the skill. Build the opportunity.</h3>
+            <p class="desc">A complete Instagram / Facebook ad concept for the same SkillSprint platform, built for a cold-audience lead-gen objective.</p>
+
+            <details class="reveal-toggle">
+              <summary>Read the ad</summary>
+              <div class="sample-block">
+                <h5>Headline</h5>
+                <p>Still "planning" to learn that skill?</p>
+                <h5>Primary Text</h5>
+                <p>Every week you wait, someone else in your field is quietly getting ahead. Not because they're smarter — because they started with 15 minutes instead of waiting for a free weekend that never comes.</p>
+                <p>SkillSprint breaks in-demand skills into short, practical lessons you can actually finish — no 40-hour syllabus, no burnout, just steady progress you can see. Learn on your bus ride, your lunch break, or your last half hour before bed.</p>
+                <h5>CTA</h5>
+                <p><strong>Start Learning Today →</strong></p>
+              </div>
+              <div class="strategy-box">
+                <div class="row"><b>Target Audience</b> College students &amp; early-career professionals</div>
+                <div class="row"><b>Objective</b> Lead generation</div>
+                <div class="row"><b>Platform</b> Instagram / Facebook</div>
+              </div>
+              <div class="sample-block">
+                <h5>Why This Copy Works</h5>
+                <p><strong>Hook:</strong> Opens on a familiar internal thought, not a product pitch. <strong>Pain point:</strong> Names the quiet anxiety of falling behind peers. <strong>Benefit:</strong> Short, finishable lessons instead of an intimidating course. <strong>Emotional trigger:</strong> Mild social comparison, resolved with an achievable first step. <strong>CTA:</strong> Direct, low-commitment, action-first.</p>
+              </div>
+            </details>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 RESEARCH -->
+  <section id="research" class="reveal">
+    <div class="container">
+      <div class="section-head">
+        <span class="label">02 / Content Research &amp; Writing</span>
+        <h2>Research first. Write with purpose.</h2>
+        <p class="subtitle">Good content begins with understanding the subject and the audience — before a single line is written.</p>
+      </div>
+
+      <div class="grid-2">
+        <!-- Research Sample A -->
+        <article class="index-card">
+          <div class="card-tab"><span>Case 03</span><span>Research Sample</span></div>
+          <div class="card-body">
+            <span class="cat">Content Strategy · Educational Content</span>
+            <h3>Why short-form content works — and where it doesn't</h3>
+            <p class="desc">A carousel-style breakdown of why short-form has become central to brand content strategy.</p>
+
+            <details class="reveal-toggle">
+              <summary>Read the analysis</summary>
+              <div class="sample-block">
+                <h5>Key Question</h5>
+                <p>Why has short-form content become such an important format for brands trying to reach an audience?</p>
+                <h5>Research Snapshot</h5>
+                <p>1. Most people scroll on mobile, in short, interrupted moments — content built for a five-minute read often loses them before the point lands.<br>
+                2. The first few seconds carry the most weight, since that's the window a viewer decides whether to keep watching or scroll away.<br>
+                3. Short formats are easier to reshare, which lets useful or entertaining content travel further through a network on its own.<br>
+                4. Platform algorithms tend to favor formats that keep people watching, which has pushed brands to compress ideas rather than expand them.</p>
+                <p style="font-size:12.5px;color:var(--ink-faint);">(Illustrative observations based on widely discussed digital marketing patterns, not proprietary data.)</p>
+                <h5>Key Takeaway</h5>
+                <p>Short-form isn't just a trend — it fits how attention actually behaves on mobile. Marketers benefit from treating it as a discipline in compression: saying the essential thing first, then earning the rest of the viewer's time.</p>
+              </div>
+              <div class="strategy-box">
+                <div class="row"><b>Research Approach</b> Identify the question → gather credible perspectives → compare findings → extract insights → translate into content</div>
+              </div>
+            </details>
+          </div>
+        </article>
+
+        <!-- Research Sample B -->
+        <article class="index-card">
+          <div class="card-tab"><span>Case 04</span><span>Independent Portfolio Analysis</span></div>
+          <div class="card-body">
+            <span class="cat">Brand Breakdown</span>
+            <h3>How Duolingo turns personality into marketing</h3>
+            <p class="desc">An independent analysis of Duolingo's social content strategy, based on public brand behavior — not internal company information.</p>
+
+            <details class="reveal-toggle">
+              <summary>Read the breakdown</summary>
+              <div class="sample-block">
+                <h5>Brand Personality</h5>
+                <p>Duolingo leans into humor and an exaggerated, slightly chaotic mascot personality that's instantly recognizable, even out of context.</p>
+                <h5>Audience</h5>
+                <p>Primarily a younger, terminally-online audience that engages with brands the way they engage with other creators — through memes and in-jokes, not announcements.</p>
+                <h5>Content Strategy</h5>
+                <p>Social content is built to feel native to each platform rather than repurposed from a press release, which keeps it from reading as an ad.</p>
+                <h5>Voice</h5>
+                <p>Playful, self-aware, and occasionally unhinged — a tone few education brands would risk, which is exactly why it stands out.</p>
+                <h5>Community Strategy</h5>
+                <p>The brand treats comments and reactions as part of the content itself, often replying in the same voice, which turns the audience into participants rather than viewers.</p>
+                <h5>Key Lessons</h5>
+                <p>1. A consistent personality is more memorable than a polished message. 2. Native, platform-first content outperforms repurposed content. 3. Replying in-voice turns an audience into a community.</p>
+              </div>
+              <div class="strategy-box">
+                <div class="row"><b>Framework</b> Observation → Why it works → Marketing lesson</div>
+              </div>
+            </details>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 WHATSAPP -->
+  <section id="whatsapp" class="alt reveal">
+    <div class="container">
+      <div class="section-head">
+        <span class="label">03 / WhatsApp Marketing</span>
+        <h2>Short messages. Strong intent. Human conversations.</h2>
+        <p class="subtitle">WhatsApp marketing needs concise communication, relevance, timing, and a clear next step.</p>
+      </div>
+
+      <div class="grid-2">
+        <!-- WA Sample A -->
+        <article class="index-card">
+          <div class="card-tab"><span>Case 05</span><span>Speculative Project</span></div>
+          <div class="card-body">
+            <span class="cat">Promotional Broadcast · SkillSprint</span>
+            <h3>Weekend Skill Upgrade</h3>
+            <p class="desc">A promotional broadcast built around a limited-time offer for existing leads.</p>
+            <div class="wa-mock" style="margin-top:16px;">
+              <div class="wa-bubble">
+                <p class="wa-line">⏳ Your weekend just got more useful.</p>
+                <p class="wa-line">Still meaning to pick up that skill you keep bookmarking? This weekend, get 30% off any SkillSprint track — bite-sized lessons you can finish in a coffee break.</p>
+                <p class="wa-line">Offer ends Sunday, 11:59 PM. 👇</p>
+                <p class="wa-line"><strong>[CTA LINK]</strong></p>
+              </div>
+            </div>
+            <div class="strategy-box">
+              <div class="row"><b>Campaign Goal</b> Direct sales / course sign-ups</div>
+              <div class="row"><b>Audience</b> Existing leads</div>
+              <div class="row"><b>Message Strategy</b> Benefit + urgency + friction reduction</div>
+            </div>
+          </div>
+        </article>
+
+        <!-- WA Sample B -->
+        <article class="index-card">
+          <div class="card-tab"><span>Case 06</span><span>Speculative Project</span></div>
+          <div class="card-body">
+            <span class="cat">Re-engagement Drip Sequence</span>
+            <h3>Interested, but didn't buy — a three-message nudge</h3>
+            <p class="desc">A short automated sequence for leads who showed interest but didn't convert.</p>
+            <div class="drip-row" style="margin-top:16px;">
+              <div class="drip-day">
+                <span class="day-label">Day 1 · Friendly Reminder</span>
+                <h5>Hey! 👋</h5>
+                <p>Saw you were checking out SkillSprint — any questions I can help with before you get started?</p>
+              </div>
+              <div class="drip-day">
+                <span class="day-label">Day 3 · Value Reminder</span>
+                <h5>Quick reminder</h5>
+                <p>Most learners finish their first sprint in under 20 minutes. Small step, real progress — whenever you're ready.</p>
+              </div>
+              <div class="drip-day">
+                <span class="day-label">Day 5 · Final Nudge</span>
+                <h5>Last check-in</h5>
+                <p>No pressure at all — just didn't want this to slip away. Your spot's still saved if you'd like to jump back in. [CTA LINK]</p>
+              </div>
+            </div>
+            <div class="strategy-box">
+              <div class="row"><b>Campaign Goal</b> Re-engagement</div>
+              <div class="row"><b>Tone</b> Personal, helpful, non-pushy</div>
+              <div class="row"><b>Conversion Goal</b> Return visit / purchase</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 CTA VAULT -->
+  <section id="cta-vault" class="reveal">
+    <div class="container">
+      <div class="section-head">
+        <span class="label">04 / CTA Vault</span>
+        <h2>Six ways to move an audience from attention to action.</h2>
+        <p class="subtitle">Different goals call for different calls-to-action. Tap a card to see it in action.</p>
+      </div>
+
+      <div class="vault-group">
+        <h4>Lead Generation</h4>
+        <div class="vault-grid">
+          <div class="vault-card" tabindex="0" role="button" aria-pressed="false">
+            <div class="cta-text">Get the Free Guide →</div>
+            <p>Best for exchanging a useful resource for a qualified lead.</p>
+            <div class="feedback">CTA selected — great choice!</div>
+          </div>
+          <div class="vault-card" tabindex="0" role="button" aria-pressed="false">
+            <div class="cta-text">See How It Works →</div>
+            <p>Best for curious visitors who need more understanding before committing.</p>
+            <div class="feedback">CTA selected — great choice!</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vault-group">
+        <h4>Direct Sales</h4>
+        <div class="vault-grid">
+          <div class="vault-card" tabindex="0" role="button" aria-pressed="false">
+            <div class="cta-text">Start Your Learning Journey →</div>
+            <p>Best for warm leads ready to commit to a full offer.</p>
+            <div class="feedback">CTA selected — great choice!</div>
+          </div>
+          <div class="vault-card" tabindex="0" role="button" aria-pressed="false">
+            <div class="cta-text">Claim Your Spot →</div>
+            <p>Best for limited-availability or time-sensitive offers.</p>
+            <div class="feedback">CTA selected — great choice!</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="vault-group">
+        <h4>Community Building</h4>
+        <div class="vault-grid">
+          <div class="vault-card" tabindex="0" role="button" aria-pressed="false">
+            <div class="cta-text">Join the Conversation →</div>
+            <p>Best for encouraging engagement over immediate purchase.</p>
+            <div class="feedback">CTA selected — great choice!</div>
+          </div>
+          <div class="vault-card" tabindex="0" role="button" aria-pressed="false">
+            <div class="cta-text">Be Part of the Community →</div>
+            <p>Best for belonging-driven brands building long-term loyalty.</p>
+            <div class="feedback">CTA selected — great choice!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FRAMEWORK -->
+  <section class="alt reveal">
+    <div class="container">
+      <div class="section-head">
+        <span class="label">My Content Framework</span>
+        <h2>Five steps, in this order, every time.</h2>
+      </div>
+      <div class="framework-row">
+        <div class="fw-step"><span class="num">01</span><h5>Research</h5><p>Find the audience, problem, context, and evidence.</p></div>
+        <div class="fw-step"><span class="num">02</span><h5>Define</h5><p>Clarify the audience and communication objective.</p></div>
+        <div class="fw-step"><span class="num">03</span><h5>Strategize</h5><p>Choose the message, angle, format, and CTA.</p></div>
+        <div class="fw-step"><span class="num">04</span><h5>Create</h5><p>Write clear, persuasive, audience-focused content.</p></div>
+        <div class="fw-step"><span class="num">05</span><h5>Optimize</h5><p>Improve clarity, relevance, engagement, and conversion.</p></div>
+      </div>
+      <p class="framework-quote">"I don't start with words. I start with the audience and the objective."</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="reveal">
+    <div class="container">
+      <div class="section-head">
+        <span class="label">Skills</span>
+        <h2>What I bring to a content or marketing team.</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-col">
+          <h4>Copywriting</h4>
+          <ul><li>Ad Copy</li><li>Social Media Copy</li><li>Headlines</li><li>CTAs</li><li>Persuasive Writing</li><li>Storytelling</li></ul>
+        </div>
+        <div class="skill-col">
+          <h4>Research &amp; Writing</h4>
+          <ul><li>Content Research</li><li>Information Synthesis</li><li>Article Writing</li><li>Case Study Writing</li><li>Competitor Research</li><li>Content Structuring</li></ul>
+        </div>
+        <div class="skill-col">
+          <h4>Marketing</h4>
+          <ul><li>WhatsApp Marketing</li><li>Social Media Content</li><li>Audience Research</li><li>Campaign Messaging</li><li>Conversion Copy</li></ul>
+        </div>
+        <div class="skill-col">
+          <h4>Tools</h4>
+          <ul><li>Canva</li><li>ChatGPT</li><li>Google Docs</li><li>Google Sheets</li><li>Microsoft PowerPoint</li><li>Notion</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKING STYLE -->
+  <section class="alt reveal">
+    <div class="container">
+      <div class="section-head">
+        <span class="label">Working Style</span>
+        <h2>What you can expect from me.</h2>
+      </div>
+      <div class="style-grid">
+        <div class="style-card"><h4>Research Before Writing</h4><p>I look for the audience problem and context before creating the message.</p></div>
+        <div class="style-card"><h4>Clear Communication</h4><p>I prefer simple, direct, audience-friendly language.</p></div>
+        <div class="style-card"><h4>Strategic Thinking</h4><p>Every piece of content should have a purpose.</p></div>
+        <div class="style-card"><h4>Continuous Learning</h4><p>I actively improve my writing, research, and marketing skills.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPPORTUNITY -->
+  <section class="reveal">
+    <div class="container">
+      <div class="opportunity">
+        <span class="label" style="color:#C9C6BB;">Let's talk</span>
+        <h2>Looking for a curious content mind who's ready to learn, research, and create?</h2>
+        <p>I'm open to internships and entry-level opportunities in copywriting, content research, content writing, social media, and WhatsApp marketing.</p>
+        <div class="hero-ctas">
+          <!-- Replace # with actual resume PDF link -->
+          <a href="#" class="btn btn-primary">Download Resume</a>
+          <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="reveal">
+    <div class="container contact-grid">
+      <div>
+        <span class="label">Contact</span>
+        <h2 style="font-size:32px;margin-top:14px;">Let's create something worth reading.</h2>
+        <p style="margin-top:14px;color:var(--ink-soft);">Have an internship opportunity, freelance project, or content challenge? I'd love to hear about it.</p>
+        <div class="contact-links">
+          <!-- Replace with actual email address -->
+          <a href="mailto:your.email@example.com"><span class="k">Email</span> your.email@example.com</a>
+          <!-- Replace with actual LinkedIn profile URL -->
+          <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener"><span class="k">LinkedIn</span> linkedin.com/in/your-profile</a>
+          <!-- Replace with actual portfolio link, if different from this site -->
+          <a href="#home"><span class="k">Portfolio</span> This site</a>
+        </div>
+      </div>
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="field" id="nameField">
+          <label for="nameInput">Name</label>
+          <input type="text" id="nameInput" name="name" required>
+          <span class="error">Please enter your name.</span>
+        </div>
+        <div class="field" id="emailField">
+          <label for="emailInput">Email</label>
+          <input type="email" id="emailInput" name="email" required>
+          <span class="error">Please enter a valid email.</span>
+        </div>
+        <div class="field" id="messageField">
+          <label for="messageInput">Message</label>
+          <textarea id="messageInput" name="message" required></textarea>
+          <span class="error">Please enter a message.</span>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div>
+      <div class="footer-brand">Shruthi Dhanasekaran</div>
+      <div class="footer-role">Copywriter | Content Researcher | Digital &amp; Social Media Writer</div>
+    </div>
+    <ul class="footer-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#copywriting">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div class="container footer-bottom">© 2026 Shruthi Dhanasekaran. Built with curiosity, research &amp; creativity.</div>
+</footer>
+
+<button class="to-top" id="toTopBtn" aria-label="Back to top">↑</button>
+
+<script>
+(function(){
+  // Mobile menu
+  const hamburger = document.getElementById('hamburgerBtn');
+  const mobilePanel = document.getElementById('mobilePanel');
+  hamburger.addEventListener('click', function(){
+    const isOpen = mobilePanel.classList.toggle('open');
+    hamburger.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  document.querySelectorAll('.mobile-panel a').forEach(function(a){
+    a.addEventListener('click', function(){
+      mobilePanel.classList.remove('open');
+      hamburger.classList.remove('open');
+      hamburger.setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  // Smooth scroll with offset for fixed header
+  document.querySelectorAll('a[href^="#"]').forEach(function(link){
+    link.addEventListener('click', function(e){
+      const id = this.getAttribute('href');
+      if(id.length > 1){
+        const target = document.querySelector(id);
+        if(target){
+          e.preventDefault();
+          const y = target.getBoundingClientRect().top + window.pageYOffset - 78;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      }
+    });
+  });
+
+  // Scroll reveal
+  const revealEls = document.querySelectorAll('.reveal');
+  if('IntersectionObserver' in window){
+    const io = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if(entry.isIntersecting){
+          entry.target.classList.add('visible');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    revealEls.forEach(function(el){ io.observe(el); });
+  } else {
+    revealEls.forEach(function(el){ el.classList.add('visible'); });
+  }
+
+  // Active nav link on scroll
+  const sections = ['home','about','copywriting','research','whatsapp','cta-vault','contact']
+    .map(function(id){ return document.getElementById(id); })
+    .filter(Boolean);
+  const navLinks = document.querySelectorAll('.nav-links a');
+  function updateActiveNav(){
+    let currentId = sections[0] ? sections[0].id : '';
+    sections.forEach(function(sec){
+      if(window.pageYOffset >= sec.offsetTop - 120){
+        currentId = sec.id;
+      }
+    });
+    navLinks.forEach(function(link){
+      link.classList.toggle('active', link.getAttribute('href') === '#' + currentId);
+    });
+  }
+  window.addEventListener('scroll', updateActiveNav, { passive: true });
+  updateActiveNav();
+
+  // Back to top
+  const toTopBtn = document.getElementById('toTopBtn');
+  window.addEventListener('scroll', function(){
+    toTopBtn.classList.toggle('show', window.pageYOffset > 500);
+  }, { passive: true });
+  toTopBtn.addEventListener('click', function(){
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // CTA vault interaction
+  document.querySelectorAll('.vault-card').forEach(function(card){
+    function select(){
+      const wasPicked = card.classList.contains('picked');
+      document.querySelectorAll('.vault-card').forEach(function(c){
+        c.classList.remove('picked');
+        c.setAttribute('aria-pressed','false');
+      });
+      if(!wasPicked){
+        card.classList.add('picked');
+        card.setAttribute('aria-pressed','true');
+      }
+    }
+    card.addEventListener('click', select);
+    card.addEventListener('keydown', function(e){
+      if(e.key === 'Enter' || e.key === ' '){
+        e.preventDefault();
+        select();
+      }
+    });
+  });
+
+  // Contact form validation
+  const form = document.getElementById('contactForm');
+  const status = document.getElementById('formStatus');
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    let valid = true;
+
+    const nameInput = document.getElementById('nameInput');
+    const nameField = document.getElementById('nameField');
+    if(!nameInput.value.trim()){
+      nameField.classList.add('invalid'); valid = false;
+    } else {
+      nameField.classList.remove('invalid');
+    }
+
+    const emailInput = document.getElementById('emailInput');
+    const emailField = document.getElementById('emailField');
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if(!emailPattern.test(emailInput.value.trim())){
+      emailField.classList.add('invalid'); valid = false;
+    } else {
+      emailField.classList.remove('invalid');
+    }
+
+    const messageInput = document.getElementById('messageInput');
+    const messageField = document.getElementById('messageField');
+    if(!messageInput.value.trim()){
+      messageField.classList.add('invalid'); valid = false;
+    } else {
+      messageField.classList.remove('invalid');
+    }
+
+    if(valid){
+      status.textContent = "Thanks! Your message is ready to send.";
+      status.classList.add('show');
+      const subject = encodeURIComponent('Portfolio enquiry from ' + nameInput.value.trim());
+      const body = encodeURIComponent(messageInput.value.trim() + '\n\n— ' + nameInput.value.trim() + ' (' + emailInput.value.trim() + ')');
+      const existing = status.querySelector('a');
+      if(existing) existing.remove();
+      const mailLink = document.createElement('a');
+      mailLink.href = 'mailto:your.email@example.com?subject=' + subject + '&body=' + body;
+      mailLink.textContent = 'Open in email app →';
+      mailLink.style.display = 'inline-block';
+      mailLink.style.marginTop = '8px';
+      mailLink.style.fontWeight = '600';
+      mailLink.style.color = 'var(--sage-deep)';
+      status.appendChild(document.createElement('br'));
+      status.appendChild(mailLink);
+    } else {
+      status.classList.remove('show');
+    }
+  });
+})();
+</script>
+</body>
+</html>
